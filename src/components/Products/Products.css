@@ -1,0 +1,18 @@
+.contuner {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+
+.product-contuner {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 45px;
+  }
+
+  
+  @media (max-width: 600px) {
+    .product-contuner {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+  
