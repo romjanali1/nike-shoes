@@ -15,7 +15,6 @@ const Products = () => {
     const addtoCart = (products) => {
         const addCart = [...cart , products]
         setCart(addCart)
-        console.log(products)
     }
     return (
         <div className='contuner'>
