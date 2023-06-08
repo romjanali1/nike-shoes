@@ -7,6 +7,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 45px;
+    margin: 100px 50px;
+  }
+
+  .card{
+    padding: 10px;
+    background-color: blanchedalmond;
+    position: sticky;
+    padding-top: 0px;
   }
 
   
